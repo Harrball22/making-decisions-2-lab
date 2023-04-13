@@ -179,6 +179,9 @@ switch(letterGrade){
   case "F":
     console.log("The student is failing.")
     break
+  default:
+    console.log("Not an eligible grade")
+    break
 }
 
 ////////// PROBLEM 11 //////////
